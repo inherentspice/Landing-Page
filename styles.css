@@ -5,10 +5,39 @@ body {
 
 .banner {
   display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
 }
 
 .header {
   display: flex;
+}
+
+.welcome-header {
+  display: flex;
+}
+
+.welcome-header h1:first-child {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.site-description > p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+ul li:first-child {
+  color: #F9FAF8;
+  font-size: 24px;
 }
 
 .site-description {
@@ -28,7 +57,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
+.page-body h1:first-child {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
 }
 
 .images {
@@ -50,12 +84,12 @@ body {
 }
 
 .quote {
-  background-color: rgb(128, 128, 128, .6);
-  font-size: 42px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
   display: flex;
   flex-direction: column;
-  /* padding-left: 300px;
-  padding-right: 300px; */
   align-items: center;
 }
 
@@ -70,4 +104,8 @@ body {
 
 .footer > p {
   color: white
+}
+
+button {
+  background-color: #3882f6;
 }
