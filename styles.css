@@ -12,7 +12,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .welcome-header {
@@ -34,6 +35,12 @@ body {
   font-size: 18px;
 }
 
+.header-image > p {
+  color: #E5E7EB;
+  align-self: center;
+  margin-top: 125px;
+}
+
 ul {
   text-decoration: none;
   list-style: none;
@@ -41,11 +48,12 @@ ul {
   color: #E5E7EB;
   font-size: 18px;
   align-items: center;
+  padding: 0;
+  gap: 15px;
 }
 
-li {
-  flex: 1;
-}
+/* li {
+} */
 
 .logo  {
   color: #F9FAF8;
@@ -114,6 +122,11 @@ li {
   width: 1000px;
 }
 
+.quote .author {
+  text-align-last: end;
+  font-style: normal;
+  font-weight: 800;
+}
 .footer {
   background-color: none;
   display: flex;
@@ -164,4 +177,9 @@ button {
   padding-bottom: 5px;
   border-radius: 10%;
   font-weight: 800;
+}
+
+.button-box > button {
+  align-self: center;
+  border: 2px solid #E5E7EB
 }
